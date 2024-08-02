@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <title>jespernytun</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="stylecontact.css">
+    </head>
+<body class="background">
+    <div class="header">
+        <h1 class="logo">jesper<span>nytun</span></h1>
+        <div class="content">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="contact">
+        <h2>Contact Me</h2>
+        <ul>
+            <li><a href="https://www.instagram.com/jesper_nytun/">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/in/jesper-bartholomay-nytun-9496a5281/">LinkedIn</a></li>
+            <li><p>Email: jesper.nytun@gmail.com</p></li>
+            
+    </div>
+</body>
+
+</html>

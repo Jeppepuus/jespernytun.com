@@ -1,0 +1,21 @@
+:root {
+    --primary-color: #0077b6;
+    --secondary-color: #03045e;
+    --accent-color: #00b4d8;
+    --highlight-color: #90e0ef;
+    --link-color: #26bcff;
+    --background: #e3f6fa;
+}
+.contact h2 {
+    font-family: "montserrat", sans-serif;
+    font-size: 30px;
+    color: var(--primary-color);
+    margin: 30px;
+}
+
+.contact li {
+    font-family: "montserrat", sans-serif;
+    font-size: 20px;
+    color:var(--primary-color);
+    margin: 30px;
+}
