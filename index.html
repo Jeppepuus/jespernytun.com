@@ -1,120 +1,25 @@
 <!DOCTYPE html>
-<html lang="no">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jesper Nytun - Engineering Student</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio – Jesper Nytun</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="../portfolio.css" />
 </head>
-
 <body>
-    <div class="bg-animation"></div>
-    
-    <!--orbs -->
-    <div class="floating-orb orb-1"></div>
-    <div class="floating-orb orb-2"></div>
-    <div class="floating-orb orb-3"></div>
+  <header class="portfolio-header">
+    <div class="container">
+      <a href="../index.html" class="back-link">← Back to Home</a>
+    </div>
+  </header>
 
-    <!-- Nav -->
-    <nav class="navbar">
-        <div class="nav-menu">
-            <div class="logo-nav">jesper<span>nytun</span></div>
-            <li class="nav-item"><a href="#home" class="active">Home</a></li>
-            <li class="nav-item"><a href="#about">About</a></li>
-            <li class="nav-item"><a href="#contact">Contact</a></li>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="section hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Hello, I'm Jesper</h1>
-                <p class="subtitle">@jesper_nytun</p>
-                <p class="description">
-                    19-year-old engineering student from Norway, currently enrolled at Institut National des Sciences Appliquées de Toulouse. 
-                    Passionate about technology, innovation, and creating solutions for tomorrow's challenges.
-                </p>
-                <div class="cta-buttons">
-                    <a href="#about" class="btn btn-primary">Learn More</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                </div>
-            </div>
-            <div class="scroll-indicator">↓</div>
-        </div>
-    </section>
-
-    <!-- About Seksjon -->
-    <section id="about" class="section about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>About Me</h2>
-                    <p>
-                        I'm currently pursuing my engineering degree at one of France's most prestigious institutions. 
-                        My journey in engineering is driven by curiosity and a desire to make meaningful contributions 
-                        to the world of technology.
-                    </p>
-                    <p>
-                        When I'm not studying, you'll find me exploring new technologies, working on personal projects, 
-                        or simply enjoying life as a student in Toulouse. I believe that cats are quite cool, 
-                        and I'm always excited to connect with like-minded individuals.
-                    </p>
-                    <div class="skills">
-                        <span class="skill-tag">Engineering Student</span>
-                        <span class="skill-tag">INSA Toulouse</span>
-                        <span class="skill-tag">Technology Enthusiast</span>
-                        <span class="skill-tag">Problem Solver</span>
-                        <span class="skill-tag">Cat Appreciator</span>
-                    </div>
-                </div>
-                <div class="about-visual">
-                    <div class="visual-text">VIEW MY PORTFOLIO</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section contact">
-        <div class="container">
-            <div class="contact-content">
-                <h2>Let's Connect</h2>
-                <p>
-                    I'm always open to interesting conversations, collaboration opportunities, 
-                    or just a friendly chat. Feel free to reach out through any of these platforms!
-                </p>
-                <div class="social-links">
-                    <a href="https://www.instagram.com/jesper_nytun/" class="social-link" target="_blank" rel="noopener">
-                        <div class="platform">Instagram</div>
-                        <div class="handle">@jesper_nytun</div>
-                    </a>
-                    <a href="https://www.linkedin.com/in/jesper-bartholomay-nytun-9496a5281/" class="social-link" target="_blank" rel="noopener">
-                        <div class="platform">LinkedIn</div>
-                        <div class="handle">Professional Profile</div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer + oldsite -->
-    <footer style="background: var(--primary-light); padding: 40px 0; text-align: center; border-top: 1px solid var(--border);">
-        <div class="container">
-            <a href="old/index.html" class="btn btn-secondary" style="margin-bottom: 20px; display: inline-block;">
-                View Old Site
-            </a>
-            <p style="color: var(--text-secondary); font-size: 14px; margin: 0;">
-                © 2024 Jesper Nytun. Made in Norway & France.
-            </p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+  <section class="project-gallery">
+    <a href="othello-ada.html" class="project-bubble">
+      <img src="../assets/othellopreview.png" alt="Othello in Ada preview">
+      <h3>Othello in ADA (Terminal)</h3>
+    </a>
+    <!--her legger jeg til flere bobler senere dersom jeg får flere prosjekter --> 
+  </section>
 </body>
-
 </html>
