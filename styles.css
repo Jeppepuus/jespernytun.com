@@ -286,6 +286,81 @@ body {
     z-index: 1;
 }
 
+.portfolio-button {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 20px 40px;
+    color: white;
+    background: var(--gradient-alt);
+    border-radius: 50px;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.portfolio-button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+/* portfolio seation */
+.project-section {
+    padding: 80px 20px;
+    background: var(--primary-light);
+}
+
+.project-card {
+    max-width: 800px;
+    margin: 0 auto;
+    background: var(--surface);
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    text-align: center;
+}
+
+.fake-terminal {
+    background: #1a1a1a;
+    color: #33ff66;
+    font-family: monospace;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    white-space: pre-wrap;
+    text-align: left;
+    font-size: 14px;
+}
+
+.project-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* headers */
+.portfolio-header {
+    background: var(--primary-light);
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 40px;
+}
+
+.back-link {
+    color: var(--text-secondary);
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.back-link:hover {
+    color: var(--text-primary);
+}
+/*------------------------------*/
+
 /* Contact Section */
 .contact-content {
     text-align: center;
@@ -394,6 +469,8 @@ body {
         transform: translateY(0);
     }
 }
+
+
 
 /* Smooth scroll indicators */
 .scroll-indicator {
